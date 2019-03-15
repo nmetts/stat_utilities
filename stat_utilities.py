@@ -192,7 +192,6 @@ def mean_diff_ci_small_n(sample_1, sample_2, alpha=0.05):
         in means
     """
     alpha = __get_alpha(alpha)
-    alpha = __get_alpha(alpha)
     x_bar1 = np.mean(sample_1)
     x_bar2 = np.mean(sample_2)
     n_1 = len(sample_1)
