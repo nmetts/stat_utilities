@@ -14,6 +14,7 @@ def __get_alpha(alpha):
     if alpha >= 1.0 or alpha <= 0:
         LOG.warning("alpha value outside of (0, 1) has been truncated to default value of 0.05")
         return 0.05
+    return alpha
 
 
 def ci_small_n(vals, alpha=0.05):
